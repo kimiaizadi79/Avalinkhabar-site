@@ -1,6 +1,0 @@
-{
-  "name": "اولین خبر | Avalin Khabar",
-  "description": "پایگاه مستقل خبری و تحلیلی اولین خبر؛ پوشش زنده رویدادهای سیاسی، اقتصادی، فناوری، ورزشی، فرهنگی و بین‌المللی",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
