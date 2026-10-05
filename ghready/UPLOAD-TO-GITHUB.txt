@@ -1,0 +1,12 @@
+اولین خبر - نسخه آماده GitHub Pages
+
+1) این ZIP را Extract کنید.
+2) تمام فایل‌ها و پوشه‌های داخل آن را در ریشه Repository گیت‌هاب قرار دهید.
+3) حتماً index.html در ریشه Repository باشد.
+4) در Settings > Pages:
+   Source: Deploy from a branch
+   Branch: main
+   Folder: / (root)
+5) Save را بزنید و چند دقیقه صبر کنید.
+
+نکته: فایل‌های React/Vite مثل package.json، src، vite.config.ts و tsconfig.json عمداً حذف شده‌اند؛ این نسخه با HTML/CSS/JavaScript خالص برای GitHub Pages آماده شده است.

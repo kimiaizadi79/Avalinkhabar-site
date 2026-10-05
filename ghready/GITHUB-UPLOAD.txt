@@ -1,0 +1,43 @@
+راهنمای آپلود «اولین خبر» در GitHub Pages
+
+ساختار Repository باید دقیقاً این‌طور باشد:
+
+index.html
+news-detail.html
+latest-news.html
+politics.html
+economy.html
+social.html
+culture.html
+sports.html
+technology.html
+international.html
+health.html
+search.html
+archive.html
+multimedia.html
+reporters.html
+about.html
+contact.html
+metadata.json
+.nojekyll
+css/
+  style.css
+js/
+  data.js
+  main.js
+
+مهم:
+- خود فایل ZIP را داخل GitHub نگذارید.
+- ZIP را Extract کنید.
+- تمام فایل‌ها و پوشه‌های Extract شده را در ریشه Repository قرار دهید.
+- index.html باید مستقیماً در ریشه Repository باشد، نه داخل یک پوشه دیگر.
+
+GitHub Pages:
+Settings → Pages → Build and deployment
+Source: Deploy from a branch
+Branch: main
+Folder: / (root)
+Save
+
+بعد از انتشار، لینک Pages را باز کنید. اگر CSS بلافاصله دیده نشد، یک بار Hard Refresh انجام دهید.
